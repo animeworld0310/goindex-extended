@@ -6253,6 +6253,10 @@ function file_video(path) {
       text: "MXPlayer(Pro)",
       href: `intent:${url}#Intent;package=com.mxtech.videoplayer.pro;S.title=${path};end`,
     },
+    {
+      text: "PLAYit",
+      href: `intent:${url}#Intent;package=com.playit.videoplayer;S.title=${path};end`,
+    },
     { text: "nPlayer", href: `nplayer-${url}` },
     { text: "VLC", href: `vlc://${url}` },
     { text: "PotPlayer", href: `potplayer://${url}` },
