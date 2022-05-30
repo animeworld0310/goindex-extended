@@ -6267,9 +6267,12 @@ function file_video(path) {
           text: "MXPlayer(Free)",
           href: `intent:${url}#Intent;package=com.mxtech.videoplayer.ad;S.title=${path};end`,
       },
-      {
           text: "MXPlayer(Pro)",
           href: `intent:${url}#Intent;package=com.mxtech.videoplayer.pro;S.title=${path};end`,
+      },
+      {
+          text: "PLAYit",
+          href: `intent:${url}#Intent;package=com.playit.videoplayer;S.title=${path};end`,
       },
       {
           text: "nPlayer", href: `nplayer-${url}`
